@@ -1,0 +1,21 @@
+---
+title: "Informe de Estabilidad Financiera Regional 2020"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el de **Contribuir a la estabilidad macroeconómica y financiera regional mediante la coordinación de políticas propias de los Bancos Centrales.**.
+ 
+Con ese fin se define como proyecto para el 2021  
+
+La formalización de un acuerdo de cooperación a través de un Memorándum de Entendimiento entre la SECMCA y el FLAR.
+
+
+# Resultado
+
+
+- [Boletín: firma del Memorándum de Entendimiento entre las Secretaría Ejecutiva del Consejo Monetario Centroamericano y el Fondo Latinoamericano de Reservas.]()

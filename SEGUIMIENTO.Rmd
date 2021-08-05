@@ -1,0 +1,20 @@
+---
+title: "Dar seguimiento al MOU entre SECMCA-BCIE-AMERCA"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Promover el desarrollo de un mercado regional de deuda pública**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+Seguimiento a la relación multilateral con el BCIE y AMERCA referente a poner en marcha el **"EL Mecanismo de Compensación, Liquidación y Custodia que facilite un Mercado Primario y Secundario de Deuda Pública Regional"**.
+
+
+
+# Resultado
+
+- [Informe de seguimiento]()

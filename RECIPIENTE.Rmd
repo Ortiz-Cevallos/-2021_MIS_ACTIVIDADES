@@ -1,0 +1,44 @@
+---
+title: "Repositorio de normativas LDA/FT/PADM"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Fortalecimiento de los sistemas de pagos e infraestructura financiera regional**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+La disposición de un inventario y repositorio de las diferentes, leyes, normativas y regulación relacionadas a la prevención de LDA/FT/PADM.  Que sirva de referencia y a la cual se le de mantenimiento continuo.
+
+Siendo su cronograma de trabajo
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+library(ggweekly)
+
+day<-c( "2021-04-05", "2021-04-06", "2021-04-07", "2021-04-08",
+        "2021-04-09", "2021-04-12", "2021-04-13", "2021-04-14",
+        "2021-04-15", "2021-04-16", "2021-04-30",
+        "2021-05-24")
+label<-c("Diseño", NA, NA, NA, NA, NA, NA, NA, NA, NA, "Remisión de \n vínculos","Conclusión")
+color<-c("#bf006c", NA, NA, NA, NA,NA, NA, NA, NA, NA, "#02307a","#02307a") 
+fill<-c("#bf006c","#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c","#bf006c","#bf006c", "#bf006c","#bf006c", "#02307a","#02307a") 
+
+project_days<-cbind(day, label, color, fill)
+project_days<-as.data.frame(project_days)
+
+G<-ggweek_planner(start_day = "2021-04-01",end_day = "2021-05-31", 
+                  highlight_days = project_days)
+G<-G+ggplot2::ggtitle("Repositorio de normativas LDA/FT/PADM")
+```
+
+```{r echo=FALSE, out.width = "650px", out.height="300px",fig.align='center'}
+G
+```  
+
+# Resultado
+
+- [Repositorio de normativas LDA/FT/PADM](https://ortiz-cevallos.github.io/OFICIALES_CUMPLIMIENTO/)

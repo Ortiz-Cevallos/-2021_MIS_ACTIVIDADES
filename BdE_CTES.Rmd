@@ -1,0 +1,26 @@
+---
+title: "Proyecto con BdE"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Promover el desarrollo de un mercado regional de deuda pública**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+### Proyecto con BdE
+
+
+
+```{r echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://ortiz-cevallos.github.io/CTER_HOJA_RUTA/PRESENTACIÓN_1.html",
+  ratio = "16:9"
+)
+```
+<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/CTER_HOJA_RUTA/PRESENTACIÓN_1.html)</p>
+

@@ -1,0 +1,19 @@
+---
+title: "Informe Anual del Sistema Bancario 2020"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Proveer información y elementos analíticos para la toma de decisiones**. 
+ 
+Con ese fin se define como actividad para el 2021  
+
+La elaboración del Informe Anual del Sistema Bancario 2020 de los países de Centroamérica, Panamá y República Dominicana.
+
+
+# Resultado
+
+- [Informe](http://www.secmca.org/wp-content/uploads/2021/07/INFORME_DEL_SISTEMA_BANCARIO_DE_CENTROAMERICA_REPUBLICA_DOMINICANA_Y_PANAMA_2020.pdf)

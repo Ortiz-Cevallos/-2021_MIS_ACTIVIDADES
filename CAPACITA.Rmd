@@ -1,0 +1,22 @@
+---
+title: "Coordinar las capacitaciones dentro del GOC"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Fortalecimiento de los sistemas de pagos e infraestructura financiera regional**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+Coordinar la realización continua de capacitaciones en temas relacionados a la prevención LDA/FT/PADM para miembros del GOC, y otros funcionarios de los bancos centrales de la región pertenecientes a sus respectivas oficialías de cumplimiento.
+
+
+
+# Resultado
+
++ [Capacitaciones](https://ortiz-cevallos.github.io/OFICIALES_CUMPLIMIENTO/SEMI.html)
+- [Primera capacitación interna](http://www.secmca.org/wp-content/uploads/2021/06/Boletin-de-Prensa-Capacitaci%C3%B3n-Interna-GOC.pdf)
+

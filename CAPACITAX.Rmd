@@ -1,0 +1,19 @@
+---
+title: "Coordinar las capacitaciones del GOC hacia otros grupos de apoyos del CMCA"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Fortalecimiento de los sistemas de pagos e infraestructura financiera regional**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+Coordinar la realización  de capacitaciones en temas relacionados a la prevención LDA/FT/PADM para miembros de otros grupos de apoyos del CMCA, tales como: CTSP y GEFR, entre otros. 
+
+
+# Resultado
+
+- [Capacitaciones](https://ortiz-cevallos.github.io/OFICIALES_CUMPLIMIENTO/SEMI.html)

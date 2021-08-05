@@ -1,0 +1,19 @@
+---
+title: "Nota"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Proveer información y elementos analíticos para la toma de decisiones**. 
+ 
+Con ese fin se define como actividad para el 2021  
+
+La elaboración de una *Nota Económica*.
+
+
+# Resultado
+
+- [Nota Económica](http://www.secmca.org/wp-content/uploads/2021/06/AN%C3%81LISIS-DE-REDES-COMPLEJAS-Y-SU-APLICACI%C3%93N-EN-EL-MERCADO-DE-COLOCACIONES-EN-DEP%C3%93SITOS-INTERBANCARIOS-DE-PANAM%C3%81.pdf)

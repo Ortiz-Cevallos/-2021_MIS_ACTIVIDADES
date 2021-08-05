@@ -1,0 +1,21 @@
+---
+title: "Informe de Estabilidad Financiera Regional 2020"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Promover el desarrollo de un mercado regional de deuda pública**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+La formalización de un acuerdo de cooperación a través de un Memorándum de Entendimiento entre la SECMCA, SECOSFIN, BCIE y BOLCEN.
+
+
+# Resultado
+
+
+- [Boletín: firma del Memorándum de Entendimiento entre las Secretarías Ejecutivas del Consejo Monetario Centroamericano y del Consejo de Ministros de Hacienda o Finanzas de Centroamérica, Panamá y la República Dominicana, Banco Centroamericano de Integración Económica y Asociación de Bolsas de Comercio de Centroamérica.](http://www.secmca.org/wp-content/uploads/2021/05/Bolet%C3%ADn-de-Prensa-17-mayo-2021.pdf)

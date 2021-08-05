@@ -1,0 +1,50 @@
+---
+title: "Asuntos varios"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Proveer información y elementos analíticos para la toma de decisiones**. 
+ 
+Con ese fin se define como actividad para el 2021  
+
+Apoyar requerimientos particulares de parte del **Secretario Ejecutivo, resto de jefaturas y público en particular**.
+
+
+# Requerimiento 1
+
+- [Atender solicitud del Banco Central de Reserva de El Salvador sobre herramientas para el seguimientos del cumplimiento de las responsabilidades que su ley le mandata](DOMINGO_1.htm)
+
+## Resultado
+
+Se establó comunicación directa con el Banco Central de Reserva de El Salvador, con el objeto de comprender de manera específica su solicitud, la cual se sugirió se haga a través de una nota oficial dirigida al Secretario del CMCA hacia los miembros del Foro de Gerentes.
+
+# Requerimiento 2
+
+- Atender solicitud del presidente del Consejo Monetario Centroamericano de solicitar al Consejo Centroamericano de Superintendentes de Bancos, Seguros y Otras Entidades Financieras el cambio de fecha para la reunión entre ambos Consejos, la cual se efectuaría el 20 de agosto.
+
+## Resultado
+
+Se establó comunicación con la Secretaría del Consejo Centroamericano de Superintendentes de Bancos, Seguros y Otras Entidades Financieras (CCSBSO), solicitando como fecha el 27 de agosto. Esa fecha estaría en consideración por los miembros del CCSBSO en su propia asamblea el 6 de agosto.
+
+# Requerimiento 3
+
+- [Atender solicitud de Odalis Marte para publicar noticias referentes a los Informes de Estabilidad Financieras elaborados en cada uno de los países de Centroamérica, Panamá y República Dominicana.](ODALIS_1.htm)
+
+## Resultado
+
+Se establó comunicación directa con Sandra Hernández para la coordinación en la elaboración de las noticias relacionadas con ese tema.
+
+
+
+
+# Requerimiento 4
+
+- [Atender solicitud de la periodista Lorena Álvarez.](PUBLICO_1.htm)
+
+## Resultado
+
+[Nota periodística.]()

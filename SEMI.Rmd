@@ -1,0 +1,43 @@
+---
+title: "Informe de Estabilidad Financiera Regional 2020"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el de **Contribuir a la estabilidad macroeconómica y financiera regional mediante la coordinación de políticas propias de los Bancos Centrales.**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+**La elaboración y presentación del Informe de Estabildidad Financiera Regional 2020.**
+
+Siendo su cronograma de trabajo
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+library(ggweekly)
+
+day<-c( "2021-01-05", "2021-01-15","2021-01-18","2021-01-20","2021-01-29","2021-02-01","2021-02-02","2021-02-03","2021-02-04","2021-02-05","2021-02-08","2021-02-09","2021-02-10","2021-02-11", "2021-02-12")
+label<-c("Revisión \n del borrador", "Recepción de \n comentarios","Incorporación de \n comentarios","Divulgación \n SECMCA", "Divulgación \n GEFR", "Organizar \n Reunión",NA, NA, NA, NA,NA,NA,NA,NA, "Presentación")
+color<-c("#02307a","#02307a","#02307a","#02307a","#02307a", "#bf006c",NA, NA, NA, NA,NA,NA,NA,NA, "#02307a")
+fill<- c("#02307a","#02307a","#02307a","#02307a","#02307a", "#bf006c","#bf006c", "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c","#bf006c","#bf006c", "#02307a")
+
+project_days<-cbind(day, label, color, fill)
+project_days<-as.data.frame(project_days)
+
+G<-ggweek_planner(start_day = "2021-01-01",end_day = "2021-02-28", 
+                  highlight_days = project_days)
+G<-G+ggplot2::ggtitle("Informe de Estabildidad Financiera Regional 2020")
+```
+
+```{r echo=FALSE, out.width = "650px", out.height="300px",fig.align='center'}
+G
+```  
+
+# Resultado
+
+
+- [Boletín Novena Reunión Conjunta entre el Consejo Monetario Centroamericano y el Consejo Centroamericano de Superintendentes de Bancos, de Seguros y de Otras Instituciones Financieras.](http://www.secmca.org/wp-content/uploads/2021/02/Boletin-de-Prensa-IX-Reunio%CC%81n-del-CMCA-CCSBSO.pdf)

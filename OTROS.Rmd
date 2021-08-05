@@ -1,0 +1,29 @@
+---
+title: "Apoyo en otros informes y exposiciones"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Proveer información y elementos analíticos para la toma de decisiones**. 
+ 
+Con ese fin se define como actividad para el 2021  
+
+Apoyar en la elaboración de los informes: Balance Preliminar, de Coyunturas y Macroeconómico Regional.
+
+
+# Resultados
+
+- [Balance Preliminar de la Economía de la Región](http://www.secmca.org/wp-content/uploads/2021/04/Balance-Preliminar-de-la-Econom%C3%ADa-de-la-Regi%C3%B3n-2020.pdf)
+
+- [Informe Macroeconómico Regional]()
+
+- [Informe de Coyuntura (Agosto)]()
+
+- [Informe de Coyuntura (Diciembre)]()
+
+- [Presentación del IEFR-20 (20-Enero)]()
+
+- [Presentación Panorama Económico de El Salvador (24-Febrero)]()

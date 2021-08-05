@@ -1,0 +1,79 @@
+---
+title: "Sentimientos en Estabilidad Financiera"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el de **Contribuir a la estabilidad macroeconómica y financiera regional mediante la coordinación de políticas propias de los Bancos Centrales.**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+**Aprendizaje y aplicación del diccionario del Banco de España con connotaciones hacia la estabilidad financiera.**
+
+Siendo su cronograma de trabajo
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+library(ggweekly)
+
+day<-c( "2021-04-12","2021-04-13","2021-04-14", "2021-04-15", "2021-04-16",
+        "2021-04-19","2021-04-20","2021-04-21", "2021-04-22", "2021-04-23",
+        "2021-04-26","2021-04-27","2021-04-28", "2021-04-29", "2021-04-30",
+        "2021-05-04","2021-05-05","2021-05-06", "2021-05-07",
+        "2021-05-10","2021-05-11","2021-05-12", "2021-05-13", "2021-05-14",
+        "2021-05-17","2021-05-18","2021-05-19", "2021-05-20", "2021-05-21",
+        "2021-05-24","2021-05-25","2021-05-26", "2021-05-27", "2021-05-28",
+        "2021-06-01", 
+        "2021-07-05", "2021-07-06",  
+        "2021-09-06", "2021-09-07",    
+        "2021-09-08",
+        "2021-11-26" )     
+  
+label<-c("Organización de \n webinario",NA, NA, NA, NA,NA,NA,NA,NA, NA,NA,NA,NA,NA, NA,
+         "Organización del \n plan de trabajo",NA, NA, NA,
+         "Formación",NA, NA, NA, NA,NA,NA,NA,NA, NA,NA,NA,NA,NA, NA,
+         "Webinario",
+         "Capacitación", NA, 
+         "Exposicion \n por país",NA, 
+         "Elaboración de \n informe", "Entrega de \n informe")
+color<-c("#bf006c", NA, NA, NA, NA,NA,NA,NA,NA, NA,NA,NA,NA,NA, NA,
+         "#bf006c", NA, NA, NA, 
+         "#bf006c", NA, NA, NA, NA,NA,NA,NA,NA, NA,NA,NA,NA,NA, NA,
+         "#02307a",
+         "#bf006c", NA, 
+         "#bf006c", NA,
+         "#02307a","#02307a")
+fill<- c("#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c",
+         "#02307a",
+         "#bf006c", "#bf006c",
+         "#bf006c", "#bf006c",
+         "#02307a", "#02307a")
+project_days<-cbind(day, label, color, fill)
+project_days<-as.data.frame(project_days)
+
+G<-ggweek_planner(start_day = "2021-04-05",end_day = "2021-11-30", 
+                  highlight_days = project_days)
+G<-G+ggplot2::ggtitle("Análisis de sentimientos en los Informes de Estabilidad")
+```
+
+```{r echo=FALSE, out.width = "650px", out.height="300px",fig.align='center'}
+G
+```  
+
+# Resultados
+
+- [Minería de texto con bolsa de palabras en R](https://www.datacamp.com/statement-of-accomplishment/course/a3963fe987f632d770136fa0d949d10fed7c057a)
+
+- [Webinario sobre Análisis de Sentimiento de Informes de Estabilidad impartido por el Banco de España](http://www.secmca.org/wp-content/uploads/2021/06/Boletin-de-Prensa-Webinario-Banco-de-Espa%C3%B1a-al-Grupo-de-Estabilidad-Financiera-Regional.pdf)
+
+

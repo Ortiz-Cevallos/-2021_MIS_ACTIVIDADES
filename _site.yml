@@ -1,0 +1,57 @@
+name: "2021"
+title: "Luis Ortiz Cevallos 2021"
+theme: theme.css
+description: |
+  Luis Ortiz Cevallos 2021
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Inicio"
+      href: index.html
+    - text: "Proyectos GEFR"
+      menu:
+        - text: "IEFR 2020"
+          href: SEMI.html
+        - text: "Ejercicio de Contagio"
+          href: CONTAGIO.html
+        - text: "Sentimientos en Informes"
+          href: SENTIMIENTO.html
+        - text: "X CMCA-CCSBSO"
+          href: IEFR21.html
+        - text: "IEFR 2021"
+          href: IEFR2021.html
+        - text: "Firma del MOU SECMCA-FLAR"
+          href: MOU_FLAR.html
+        - text: "Seguimiento al MOU SECMCA-FLAR"
+          href: SEGUIMIENTO_FLAR.html
+    - text: "Proyectos GOC"
+      menu:
+        - text: "Normativa LDA/FT/PADM"
+          href: LEYES.html
+        - text: "Repositorio de leyes"
+          href: RECIPIENTE.html
+        - text: "Capacitaciones internas"
+          href: CAPACITA.html  
+        - text: "Capacitaciones externas"
+          href: CAPACITAX.html  
+    - text: "Proyectos CTER"
+      menu:
+        - text: "Firma del MOU SECMCA-BCIE-BOLCEN"
+          href: MOU_BCIE.html
+        - text: "Seguimiento al MOU SECMCA-BCIE-BOLCEN"
+          href: SEGUIMIENTO.html
+        - text: "Proyecto con BdE"
+          href: BdE_CTES.html
+    - text: "Proyectos SECMCA"
+      menu:
+        - text: "Informe de indicadores bancarios"
+          href: INDICADORES.html
+        - text: "Informe anual del sistema bancario 2020"
+          href: BANCARIO.html
+        - text: "Nota"
+          href: NOTA.html
+        - text: "Apoyo en otros informes y presentaciones"
+          href: OTROS.html
+        - text: "Asuntos varios"
+          href: MIS.html
+output: distill::distill_article

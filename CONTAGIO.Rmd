@@ -1,0 +1,62 @@
+---
+title: "Ejercicios de contagio en los sistemas bancarios"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el de **Contribuir a la estabilidad macroeconómica y financiera regional mediante la coordinación de políticas propias de los Bancos Centrales.**. 
+ 
+Con ese fin se define como proyecto para el 2021  
+
+**Elaboración de metodología y aplicación de ejercicio de estrés por contagio a través de analísis de redes**
+
+Siendo su cronograma de trabajo
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+library(ggweekly)
+
+day<-c( "2021-03-01","2021-03-02","2021-03-03", "2021-03-04", "2021-03-05", "2021-03-08","2021-03-09","2021-03-10", "2021-03-11", "2021-03-12", "2021-03-15","2021-03-16","2021-03-17", "2021-03-18", "2021-03-19", "2021-03-22","2021-03-23","2021-03-24", "2021-03-25", "2021-03-26", "2021-04-05","2021-04-12","2021-04-30", "2021-05-07",
+"2021-05-28", "2021-06-30","2021-07-01","2021-07-02", "2021-07-05",
+"2021-07-06", "2021-07-07", "2021-07-08", "2021-07-09", "2021-07-12",
+"2021-07-13", "2021-07-14", "2021-07-15")     
+  
+label<-c("Estudio \n metodología",NA, NA, NA, NA,NA,NA,NA,NA, NA,
+         "Programación",NA, NA, NA, NA,NA,NA,NA,NA, NA,"Exposición \n BCR","Inicio de \n reporte", "Primer \n borrador","Presentación", "Divulgación \n GEFR", "Aplicación \n resto", "Compilación", NA, NA, NA, NA,NA,NA,NA,NA, NA, "Remisión")
+color<-c("#bf006c", NA, NA, NA, NA,NA,NA,NA,NA, NA,
+         "#bf006c", NA, NA, NA, NA,NA,NA,NA,NA, NA,     "#02307a","#02307a","#02307a","#02307a","#02307a","#02307a", "#bf006c", NA, NA, NA, NA,NA,NA,NA,NA, NA,"#02307a")
+fill<- c("#bf006c", "#bf006c", "#bf006c","#bf006c", "#bf006c","#bf006c","#bf006c","#bf006c","#bf006c", "#bf006c",
+         "#bf006c", "#bf006c", "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c","#bf006c","#bf006c", "#bf006c",     "#02307a","#02307a","#02307a","#02307a","#02307a","#02307a", "#bf006c", "#bf006c", "#bf006c", "#bf006c","#bf006c","#bf006c","#bf006c","#bf006c","#bf006c", "#bf006c","#02307a")
+
+project_days<-cbind(day, label, color, fill)
+project_days<-as.data.frame(project_days)
+
+G<-ggweek_planner(start_day = "2021-03-01",end_day = "2021-07-30", 
+                  highlight_days = project_days)
+G<-G+ggplot2::ggtitle("Estrés por contagio a través de analísis de redes")
+```
+
+```{r echo=FALSE, out.width = "650px", out.height="300px",fig.align='center'}
+G
+```  
+
+# Resultados
+
+- [Aprendizaje de análisis de redes 1](https://www.datacamp.com/statement-of-accomplishment/course/7b896477914612b11f4f3d9b4924702395bef8ce?raw=1)
+- [Aprendizaje de análisis de redes 2](https://www.datacamp.com/statement-of-accomplishment/course/49caeb09cc041fb4436c82bcaa0c279e60349f9b?raw=1)
+- [Aprendizaje de control de programas](https://www.datacamp.com/statement-of-accomplishment/course/87caddda94ed8457019f6ecd161122bf6856cf9d?raw=1)
+- [Nota económica](http://www.secmca.org/wp-content/uploads/2021/06/AN%C3%81LISIS-DE-REDES-COMPLEJAS-Y-SU-APLICACI%C3%93N-EN-EL-MERCADO-DE-COLOCACIONES-EN-DEP%C3%93SITOS-INTERBANCARIOS-DE-PANAM%C3%81.pdf)
+- Presentación al GEFR:
+
+```{r echo=FALSE}
+xaringanExtra::embed_xaringan(
+  url = "https://ortiz-cevallos.github.io/PRESENTA_CONTAGIO/PRESENTA_GEFR.html",
+  ratio = "16:9"
+)
+```
+<p style="text-align:right;">[<i class="fas fa-external-link-alt"></i>Expandir la presentación](https://ortiz-cevallos.github.io/PRESENTA_CONTAGIO/PRESENTA_GEFR.html)</p>
+

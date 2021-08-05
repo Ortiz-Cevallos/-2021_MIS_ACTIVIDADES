@@ -1,0 +1,25 @@
+---
+title: "Informe mensual de indicadores bancarios"
+date: "Atualizado al `r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecutiva del CMCA**  uno de los objetivos estratégico es el: **Proveer información y elementos analíticos para la toma de decisiones**. 
+ 
+Con ese fin se define como actividad para el 2021  
+
+La elaboración mensual de indicadores del sistema bancario de los países de Centroamérica, Panamá y República Dominicana.
+
+
+# Resultados
+
+- [Informe enero](https://twitter.com/secmca/status/1351194449255297024)
+- [Informe febrero](https://twitter.com/secmca/status/1364235966739853312)
+- [Informe marzo](https://twitter.com/secmca/status/1374407272412016643)
+- [Informe abril](https://twitter.com/secmca/status/1389589584204414986)
+- [Informe mayo](https://twitter.com/secmca/status/1397596641167806471)
+- [Informe junio](https://twitter.com/secmca/status/1410293790431191044)
+- [Informe julio](https://twitter.com/secmca/status/1420392227252092932)
