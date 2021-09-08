@@ -16,14 +16,12 @@ navbar:
           href: CONTAGIO.html
         - text: "Sentimientos en Informes"
           href: SENTIMIENTO.html
-        - text: "X CMCA-CCSBSO"
+        - text: "Extraordinaria CMCA-CCSBSO"
           href: IEFR21.html
         - text: "IEFR 2021"
           href: IEFR2021.html
         - text: "Firma del MOU SECMCA-FLAR"
           href: MOU_FLAR.html
-        - text: "Seguimiento al MOU SECMCA-FLAR"
-          href: SEGUIMIENTO_FLAR.html
     - text: "Proyectos GOC"
       menu:
         - text: "Normativa LDA/FT/PADM"

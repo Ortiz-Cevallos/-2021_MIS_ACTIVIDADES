@@ -1,5 +1,5 @@
 ---
-title: "Informe de Estabilidad Financiera Regional 2020"
+title: "Organizar IX reunión entre el CMCA-CCSBSO y elaborar  Informe de Estabilidad Financiera Regional 2020"
 date: "Atualizado al `r Sys.Date()`"
 output: distill::distill_article
 ---

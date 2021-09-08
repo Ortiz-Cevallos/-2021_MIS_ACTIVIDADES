@@ -1,5 +1,5 @@
 ---
-title: "Informe de Estabilidad Financiera Regional 2021 (X CMCA-CCSBSO)"
+title: "Organizar reunión extraordinaria entre el CMCA-CCSBSO y elaborar Informe Ejecutivo de Estabilidad Financiera Regional al primer semestre 2021"
 date: "Atualizado al `r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -12,7 +12,7 @@ Dentro del marco del **Plan Estratégico Institucional de la Secretaría Ejecuti
  
 Con ese fin se define como proyecto para el 2021  
 
-**La elaboración y presentación del Informe de Estabildidad Financiera Regional 2021 para la X reunión conjunta entre el CMCA y CCSBSO.**
+**Organización de la Reunión Estraordinaria entre el CMCA y CCSBSO, y elaboración y presentación del Informe Ejecutivo de Estabildidad Financiera Regional 2021.**
 
 Siendo su cronograma de trabajo
 
@@ -31,7 +31,7 @@ project_days<-as.data.frame(project_days)
 
 G<-ggweek_planner(start_day = "2021-07-01",end_day = "2021-08-31", 
                   highlight_days = project_days)
-G<-G+ggplot2::ggtitle("Organización de X reunión conjunta")
+G<-G+ggplot2::ggtitle("Organización de reunión extraordinaria conjunta")
 ```
 
 ```{r echo=FALSE, out.width = "650px", out.height="300px",fig.align='center'}
@@ -41,4 +41,4 @@ G
 # Resultado
 
 
-- [Boletín Décima Reunión Conjunta entre el Consejo Monetario Centroamericano y el Consejo Centroamericano de Superintendentes de Bancos, de Seguros y de Otras Instituciones Financieras.]()
+- [Boletín Reunión estraordinaria entre el Consejo Monetario Centroamericano y el Consejo Centroamericano de Superintendentes de Bancos, de Seguros y de Otras Instituciones Financieras.](http://www.secmca.org/wp-content/uploads/2021/09/Reunio%CC%81n-Extraordinaria-entre-el-CMCA-CCSBSO.pdf)
