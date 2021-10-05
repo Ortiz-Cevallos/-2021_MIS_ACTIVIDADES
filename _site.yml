@@ -8,7 +8,7 @@ navbar:
   right:
     - text: "Inicio"
       href: index.html
-    - text: "Proyectos GEFR"
+    - text: "GEFR"
       menu:
         - text: "IEFR 2020"
           href: SEMI.html
@@ -18,11 +18,9 @@ navbar:
           href: SENTIMIENTO.html
         - text: "Extraordinaria CMCA-CCSBSO"
           href: IEFR21.html
-        - text: "IEFR 2021"
-          href: IEFR2021.html
         - text: "Firma del MOU SECMCA-FLAR"
           href: MOU_FLAR.html
-    - text: "Proyectos GOC"
+    - text: "GOC"
       menu:
         - text: "Normativa LDA/FT/PADM"
           href: LEYES.html
@@ -32,15 +30,21 @@ navbar:
           href: CAPACITA.html  
         - text: "Capacitaciones externas"
           href: CAPACITAX.html  
-    - text: "Proyectos CTER"
+    - text: "CTER"
+      menu:
+        - text: "Webinario"
+          href: WEBI_1.html
+        - text: "Asamblea CTER"
+          href: BdE_CTES.html
+    - text: "Proyecto con el BCIE"
       menu:
         - text: "Firma del MOU SECMCA-BCIE-BOLCEN"
           href: MOU_BCIE.html
         - text: "Seguimiento al MOU SECMCA-BCIE-BOLCEN"
           href: SEGUIMIENTO.html
-        - text: "Proyecto con BdE"
+        - text: "Trade Repository (fase 2)"
           href: BdE_CTES.html
-    - text: "Proyectos SECMCA"
+    - text: "Labores con SECMCA"
       menu:
         - text: "Informe de indicadores bancarios"
           href: INDICADORES.html
